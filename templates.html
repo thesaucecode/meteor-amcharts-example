@@ -1,0 +1,38 @@
+<head>
+  <title>em0ney:amcharts example</title>
+</head>
+
+<body>
+</body>
+
+<template name="home">
+  <h1>em0ney:amcharts example</h1>
+
+  <a href="{{urlFor 'example1'}}">Column and Line Mix</a><br>
+  <a href="{{urlFor 'example2'}}">Date Based Line</a><br>
+  <a href="{{urlFor 'example3'}}">Pie Chart Example</a>
+</template>
+
+<template name="example1">
+  <h1>Column and Line Mix</h1>
+  <a href="{{urlFor 'home'}}">Home</a><br>
+  <a href="{{urlFor 'example2'}}">Date Based Line</a><br>
+  <a href="{{urlFor 'example3'}}">Pie Chart Example</a><br><br><br>
+  <div id="chartdiv"></div> 
+</template>
+
+<template name="example2">
+  <h1>Date Based Line</h1>
+  <a href="{{urlFor 'home'}}">Home</a><br>
+  <a href="{{urlFor 'example1'}}">Column and Line Mix</a><br>
+  <a href="{{urlFor 'example3'}}">Pie Chart Example</a><br><br><br>
+  <div id="chartdiv"></div> 
+</template>
+
+<template name="example3">
+  <h1>Pie Chart</h1>
+  <a href="{{urlFor 'home'}}">Home</a><br>
+  <a href="{{urlFor 'example1'}}">Column and Line Mix</a><br>
+  <a href="{{urlFor 'example2'}}">Date Based Line</a><br>
+  <div id="chartdiv"></div> 
+</template>
